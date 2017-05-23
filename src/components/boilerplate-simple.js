@@ -1,13 +1,15 @@
-import React from 'react';
-import { View, Text } from 'react-native';
-
 // If should be "class" based component, or "functional" component
 // If just showing data, prensentational = functional
 // If you need lifecycle methods, access to state = class
 
 // boilerplate functional component
-const AlbumDetail = () => {
+import React from 'react';
+import { View, Text } from 'react-native';
 
+const AlbumDetail = () => {
+	return (
+		<View></View>
+	);
 };
 
 export default AlbumDetail;
